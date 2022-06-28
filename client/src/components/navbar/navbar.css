@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: #003580;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebarContainer {
+    display:flex;
+    width: 100%;
+    max-width: 1024px;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+
+.logo{
+    font-weight: 500;
+}
+
+.navButton {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    color: #003580;
+    cursor: pointer;
+}
+
+.logout{
+    display:flex;
+    align-items: center;
+}
